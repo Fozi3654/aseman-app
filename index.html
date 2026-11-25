@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#269FE8">
+<meta name="description" content="اپلیکیشن آسمان‌آرا — رزرو بلیط هواپیما، تورهای داخلی و خارجی، مدیریت سفرها و حساب کاربری در گوشی شما.">
+<title>آسمان‌آرا | رزرو بلیط هواپیما</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<link rel="preload" as="image" href="assets/paris.webp" fetchpriority="high">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="phone">
+  <div class="status-bar">
+    <span class="sb-time" id="sbTime">۰۹:۴۱</span>
+    <span class="sb-icons">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M2 22h3V10H2v12zm5 0h3V4H7v18zm5 0h3V7h-3v15zm5 0h3V2h-3v20z"/></svg>
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 3C7 3 2.7 5.4 0 9l12 14L24 9c-2.7-3.6-7-6-12-6z"/></svg>
+      <span class="sb-battery"><span class="sb-battery-fill"></span></span>
+    </span>
+  </div>
+  <main id="app"></main>
+  <nav class="tabbar" id="tabbar">
+    <button class="tab" data-tab="home"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9v9a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-5h-2v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-9z"/></svg><span>خانه</span></button>
+    <button class="tab" data-tab="search"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><span>جست‌وجو</span></button>
+    <button class="tab" data-tab="tickets"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4v-2z"/><path d="M12 4v2M12 10v2M12 16v2"/></svg><span>بلیط‌ها</span></button>
+    <button class="tab" data-tab="offers"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12l-8 8-9-9V4h7l10 8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg><span>پیشنهاد</span></button>
+    <button class="tab" data-tab="profile"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg><span>پروفایل</span></button>
+  </nav>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
